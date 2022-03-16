@@ -1,7 +1,2 @@
-node_modules/
-dist
-.cache
-*.zip
 .DS_Store
-.idea
-notes.md
+node_modules
