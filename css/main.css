@@ -1,0 +1,794 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* =================== Base Styles =================== */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  color: #1d4063;
+  background-color: #ebf2f9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+ul,
+ol {
+  font-size: .75rem;
+  list-style: none;
+}
+
+
+
+/*****SIGNATURE FONT FOR lOGO NAME*****/
+@font-face {
+  font-family: 'Amsterdam Four';
+  src: url(../css/amsterdam-four-ttf.ttf) format("truetype");
+}
+
+h1 {
+  font-family: 'Amsterdam Four', serif;
+}
+
+h2 {
+  color: #1d4063;
+}
+
+h3 {
+  color: #6ea6e1;
+  font-size: 1.0rem;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h4,
+p {
+  color: #1d4063;
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+  text-decoration: none;
+}
+
+.content-wrapper { /** Contains all content with a margin of 10%. Exceptions are background images and blue-header borders **/
+  width: 90%; 
+  margin: 0;
+}
+
+.blue-header {
+  width: 100%;
+  background-color: #1d4063;
+  /* border-top: 0.2em solid #1d4063;
+  border-bottom: 0.2em solid #1d4063; */
+} 
+
+.blue-header h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  margin: .3em 0;
+  padding-left: 0.90em;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* =================== Header Styles =================== */
+
+header {
+  background: url('../img/clouds.png') no-repeat #6ea6e1;
+  background-size: cover;
+  background-position: center;  
+  margin: 0;
+  padding: 0;
+}
+
+header .content-wrapper  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0; 
+  }
+
+header .logo-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap; 
+}
+
+header .logo-text h1  {
+  font-size: 3.33rem;
+  line-height: 2;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+header .logo-text h2 {
+  color: #1d4063;
+  font-size: 1.33rem;
+  line-height: 2.0rem;
+  font-weight: normal;
+  text-align: center;
+  width: 70%;
+}
+
+/* ========== Natigation Bar Styles  ========== */
+/******* not using right now but keeping for future ********/
+
+/* header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  font-weight: lighter;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  padding: .5em; 
+}
+
+header a {
+  color: #6ea6e1;
+  text-decoration: none;
+  margin: 0; 
+} */
+
+
+/* =================== Portfolio Styles =================== */
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+#portfolio .projects {
+  display: flex;
+  justify-content: center;
+}
+
+#portfolio .projects .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-top: 1rem;
+}
+
+#portfolio .projects .content-wrapper article {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+.projects article figure {
+  display: flex;
+  justify-content: center;
+}
+
+.projects article figure img {
+  width: 100%;
+}
+
+figure .mondrian {
+  width: 75%;
+}
+
+
+
+/* =================== About Styles =================== */
+
+#about {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+#about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+#about figure {
+  display: flex;
+  justify-content: center;
+}
+
+#about img {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/* =================== Contact Styles =================== */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+#contact .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+.hire,
+.follow {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.hire p,
+.follow p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  flex-basis: auto;
+  flex-grow: 2;
+}
+
+.hire h4,
+.follow h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.hire ul,
+.follow ul {
+  padding: 0;
+  flex: 2 100%;
+}
+
+.hire ul li,
+.follow ul li{
+  padding: 0.3rem 0;
+}
+
+
+.fontawesome-icon {
+  margin: 0.5em 0;
+}
+
+.fontawesome-icon a {
+  /*font-size: 0.75rem; */
+  text-decoration: none;
+  text-transform: none;
+}
+
+.fontawesome-icon span {
+  /*font-size: 0.75rem; */
+}
+
+.fontawesome-icon i {
+  color: #6ea6e1;
+  padding: 0 .5em;
+}
+
+#contact figure {
+  display: flex;
+  justify-content: center;
+  order: 3;
+}
+
+#contact img { 
+  width: 50%;
+}
+
+/* =================== Footer Styles =================== */
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: .75rem;
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+
+
+/* ============================ TABLET STYLES =============================== */ 
+
+@media only screen and (min-width: 768px) {
+
+  /* Base Styles */
+
+  .blue-header h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: .4em 0;
+    padding-left: 1em;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  .content-wrapper {
+    margin: 2rem 0;
+  }
+
+
+  /* Header */
+  header .logo-text h1 {
+    font-size: 5rem;
+  }
+
+  header .logo-text h2 {
+    font-size: 1.5rem;
+  }
+
+
+    
+  /* Portfolio */
+  
+  .project-description {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 80%;
+  }
+
+  
+  /* About */
+
+  #about .content-wrapper {
+    flex-flow: row nowrap;
+  }
+
+  #about figure {
+    width: 50%;
+  }
+
+  #about .about-text {
+    width: 50%;
+  }
+
+  /* Contact */
+
+  #contact .content-wrapper {
+    flex-flow: row  wrap;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .hire {
+    width: 33%;
+    flex: unset;
+  }
+
+  .follow {
+    width: 40%;
+    flex: unset;
+  }
+
+  .follow ul {
+    /* margin-top: 2rem; */
+  }
+
+  .follow p {
+    /* margin-top: 1.5rem; */
+  }
+
+  #contact figure {
+    order: unset;
+    width: 25%;
+    align-items: center;
+  }
+  #contact img {
+    width: auto;
+    height: 50%;
+  }
+  
+} 
+
+/* ============================ DESKTOP STYLES =============================== */ 
+
+@media only screen and (min-width: 1200px) {
+    /* Base Styles */
+    .content-wrapper {
+      max-width: 1200px;
+    }
+
+  
+  /* Header */
+  
+  header .logo-text {
+    margin-bottom: 2rem;
+    max-width: 1200px;
+  }
+  
+  header .logo-text h1  {
+    font-size: 5.6rem;
+    line-height: 2;
+  }
+  
+  header .logo-text h2 {
+    font-size: 1.75rem;
+    line-height: 2;
+  }
+
+  
+  /* Portfolio */
+
+  .projects .mondrian {
+    width: 35%;
+  }
+
+  #portfolio .projects .content-wrapper article {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .project-description {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 50%;
+  }
+  
+  .project-description h4 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  .projects figure {
+    width: 45%;
+  }
+
+  .projects article {
+    padding: 1rem 0;
+  }
+
+
+  /* About */
+
+  #about figure {
+    width: 25%;
+  }
+
+  #about .content-wrapper {
+    justify-content: space-between;
+  }
+
+  /* Contact */
+
+  .hire,
+  .follow {
+    width: 33%;
+  }
+
+.hire p,
+.follow p {
+  font-size: 1.3rem;
+}
+
+.hire h4,
+.follow h4 {
+  font-size: 2rem;
+}
+
+.hire ul li,
+.follow ul li{
+  font-size: 1rem;
+}
+
+
+.fontawesome-icon {
+  font-size: 1rem;
+}
+
+#contact figure {
+  width: 25%;
+}
+#contact img {
+  width: auto;
+  height: 90%;
+}
+
+
+  /* Footer */
+  footer p {
+    font-size: 1rem;
+  }
+
+
+} 
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
