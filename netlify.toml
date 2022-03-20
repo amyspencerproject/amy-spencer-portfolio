@@ -1,2 +1,4 @@
 [build]
-  functions = "./netlify_functions"
+  publish = "_site/"
+
+  command = "eleventy"
