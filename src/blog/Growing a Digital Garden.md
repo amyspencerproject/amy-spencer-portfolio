@@ -1,14 +1,13 @@
 ---
 layout: layouts/blog
 title: Growing a Digital Garden 
-description: Hopefully more than just a blog
+description: Hopefully more than just another blog
+date: Last Modified
+tags: ['growing', 'goals']
 ---
 # {{ title }}
 
-tl: dr;
--------
-
-Many people start a blog and then let it wither away. I have done this a few times. The structure and the perfection always prevent me from maintaining a good blog.  This time I am goign to try a digital garden.
+Many people start a blog and then let it wither away. I have done this twice online. The structure and my perfectionism always prevent me from maintaining a blog. This time I am going to try a digital garden approach.
 
 * * *
 
@@ -18,21 +17,18 @@ Digital Garden Goals
 
 ### 1\. Contribute 
 
-I think about a lot of things!  I am afraid to share them for various reasons.  However I think it is so important to contribute to a community, to the common good.  That is supposing that what I have to say is good or has a community, LOL
-!!
+Being a lifelong learner I think about a lot of things! I am afraid to share them for various reasons. However, I think it is so important to contribute to a community, to the common good, to a wider conversation. When you have a digital garden you are sigining up to be a public learner.
 
 
 ### 2\. Become a better writer
 
-If you don't use it, you lose it, 
+Nothing would make me happier that to have this garden become a weekly ritual for writing. There are times I feel such an urge to write but I feel rusty. There is no better way to polish up those skills than to just write.
 
-### 3\. Communicate with Future Teammates or Employers
+### 3\. Create a repository of ideas
 
-Crazy, right? Using this blog I can literally talk with people I don't know yet... from the _future_.
+There are topics, dilemas, paradoxes, and problems I have been lugging around in my head for years. This garden could be a repository for all these which I could easily revist. A digital garden is not structured in chronological order but contextual relationships, linking posts by topics and themes. This seems like a much more organic way of organizing a blog.
 
-> **Woah.**
+> **Service Terms Of Agreement**
 
-_\- Keanu Reeves_
-
-In point #1 my audience is unknown, random folks hoping to solve a specific problem or learn something new. In #2 the audience is me. And in #3, my audience is people I may one day have the pleasure of working with. 
+ 
 
