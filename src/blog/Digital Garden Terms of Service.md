@@ -7,28 +7,15 @@ tags: ['growing', 'rules']
 ---
 # {{ title }}
 
-https://www.swyx.io/digital-garden-tos#for-visitors
 
-For Visitors
-Welcome! You are now browsing a Digital Garden. This is my personal space for Learning In Public. I am a lifelong learner so everything is a Work-In-Progress like me, but I do not let perfectionism get in the way. That means that what you read here is not authoritative or complete, and is not representative of my best work.
+Benvenuto! This is my Digital Garden. Everything is here is my personal space for learning in public. What you read here is part of a process and therefore not necessariy completed, correct, or fully verified.  Some posts are serious, some are whimsical but all reflect my interests. If something here also intrests you then please engage, share, and comment.
 
-However, it is representative of my interests and current state of knowledge, and if you have the same interests, then this space is also yours to use as a reference. Feedback and social sharing is welcome - that is the whole point of being public!
+In my Garden I retain the right to be incomplete, inconcise, and flat out wrong. As a visitor to my Garden I expect you to understand that this is a living document. I will rewrite and change my mind based on my learning and understanding as I see fit.  You are welcome to comment on, counter-argue, and disagree with anything I post. You are also encouraged to suggest content I should read, watch, or listen to.  This is a journey in learning! 
 
-1. Right to Be Wrong
-I have a right to be wrong or incomplete in my Digital Garden, either due to paucity of time or knowledge. You will not hold this, or my readership, against me because I will keep learning, with your help. Everything in the Digital Garden is a living document and I will retract or rephrase things I no longer agree with.
+However, please do not plagerize my content.  And if you do disagree with me please be respectful and polite.  Thank you!
 
-2. Constructive Criticism
-You are expressly welcome to comment on, tear apart, counter-argue, or outright disagree on anything here. No compliment sandwich needed - I learn most from critics. I will listen to you but I don't promise to agree with you. Please also suggest what else I should include, read, watch, or listen to, or tell me what you would have written instead.
 
-Better yet, write a better version of what I did and publish it on your own Garden. I'd love to read it.
-
-3. Attribute, don't Plagiarize
-Don't plagiarize. You're welcome to quote, with attribution and a link back here. I don't waive copyright for commercial purposes. But feel free to share ideas and riff off of them.
-
-For Gardeners
-Congratulations! You are now the proud owner of your own corner of the Internet. This is a second brain that exists outside your natural one - it is very good at remembering everything, searching and organizing facts and links, and saving you keystrokes. Your second brain is fertile ground: If you tend to it well, your Digital Garden will help you be a lifelong learner, catch you friends while you sleep, and bear fruits in unexpected ways.
-
-However there are some ground rules to being a responsible Digital Gardener, and some things you can do to increase the yield on your work.
+As a Garder I am going to adhere to the following ground rules.  These rules are from Shaun Wang [Digital Garden Terms of Service](https://www.swyx.io/digital-garden-tos)
 
 1. Consideration of Others
 I will not publish private conversations or confidential information.
