@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog
-title: Terms of Service for a Garden 
+title: Digital Garden Terms of Agreement 
 description: creating a safe space with rules of engagement
 date: Last Modified
 tags: ['growing', 'rules']

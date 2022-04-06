@@ -28,7 +28,3 @@ Nothing would make me happier that to have this garden become a weekly ritual fo
 
 There are topics, dilemas, paradoxes, and problems I have been lugging around in my head for years. This garden could be a repository for all these which I could easily revist. A digital garden is not structured in chronological order but contextual relationships, linking posts by topics and themes. This seems like a much more organic way of organizing a blog.
 
-> **Service Terms Of Agreement**
-
- 
-
