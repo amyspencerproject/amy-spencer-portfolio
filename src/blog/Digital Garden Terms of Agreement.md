@@ -15,21 +15,35 @@ In my Garden I retain the right to be incomplete, inconcise, and flat out wrong.
 However, please do not plagerize my content.  And if you do disagree with me please be respectful and polite.  Thank you!
 
 
-As a Garder I am going to adhere to the following ground rules.  These rules are from Shaun Wang [Digital Garden Terms of Service](https://www.swyx.io/digital-garden-tos)
+As a Garder I am going to adhere to the following ground rules. These rules were modeled on [Digital Garden Terms of Service](https://www.swyx.io/digital-garden-tos) set by Shaun Wang
 
-1. Consideration of Others
+**Consideration of Others**
+
 I will not publish private conversations or confidential information.
-I will consider the feelings of others if I ever write negatively about something people have worked on or said.
-I will do my best to cover my bases and check that I have not assumed incompetence or malice due to my ignorance of the full body of work.
-I will err on the side of treating others as THEY want to be treated.
-I will "steelman" arguments - the opposite of "strawman arguments" - instead of picking on the weakest piece of their argument, I will confront head on their best argument by seeking first to understand before trying to be understood.
-2. Epistemic Disclosure
-I will report how strongly I hold my beliefs, always reserving the right to be wrong and change my mind.
-I will report how much experience I have in the topic, by disclosing how much work I have done so far on it and linking to others who will know more.
-I will link to further resources so that readers can discover influencing and contrasting opinions from the original source.
-In the spirit of this, the practice of disclosing epistemic status and effort originates from Devon Zuegel. I don't think this always needs be disclosed, for example if it is obvious from context. But it never hurts.
 
-3. Response to Feedback
+I will consider the feelings of others if I ever write negatively about something people have worked on or said.
+
+I will stop, listen, and hold up those in the conversation whom the privilege is not centered on.  
+
+I will do my best to cover my bases and check that I have not assumed incompetence or malice due to my ignorance of the full body of work.
+
+I will err on the side of treating others as THEY want to be treated.
+
+I will incorporate "steelman" arguments - the opposite of "strawman arguments" - instead of picking on the weakest piece of their argument, I will confront head on their best argument.
+
+**Epistemic Disclosure**
+
+I will report how strongly I hold my beliefs, always reserving the right to be wrong and change my mind.
+
+I will report how much experience I have in the topic, by disclosing how much work I have done so far on it and linking to others who will know more.
+
+I will link to further resources so that readers can discover influencing and contrasting opinions from the original source.
+
+
+**Response to Feedback**
+
 I will not get discouraged if I don't receive feedback. I plant ideas in my Digital Garden for my own use, not solely to get visitors.
+
 I will reward feedback by listening and immediately correcting things I got wrong.
+
 I do not promise to agree with or respond to all feedback.
