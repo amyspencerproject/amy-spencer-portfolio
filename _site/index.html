@@ -1275,7 +1275,6 @@
   </section>
 </main>
 
-
     <!--
       Google Analytics
       -------------------------------------------------
@@ -1285,7 +1284,6 @@
     -->
     <script>
       var analyticsId;
-
       // If analytics id has been manually defined
       if (analyticsId) {
         // Initialize GA with local var
@@ -1297,15 +1295,12 @@
           .then(initGoogleAnalytics)
           .catch(handleError);
       }
-
       // -------------------------------------------------
       // Helper Functions
       // --------------------------------------------------
-
       function handleError(error) {
         console.log("error", error);
       }
-
       function getEnvVar(response) {
         // If the request was successful
         if (response.ok) {
@@ -1316,7 +1311,6 @@
           return Promise.reject(response);
         }
       }
-
       // Set Up Google Analytics
       function initGoogleAnalytics(analyticsId) {
         if (analyticsId) {
@@ -1327,7 +1321,6 @@
           var script = document.createElement("script");
           script.src = analyticsUrl;
           ref.parentNode.insertBefore(script, ref);
-
           // Initialize Google Analytics
           window.dataLayer = window.dataLayer || [];
           function gtag() {

@@ -128,7 +128,6 @@ title: Amy Spencer | Web Developer
     -->
     <script>
       var analyticsId;
-
       // If analytics id has been manually defined
       if (analyticsId) {
         // Initialize GA with local var
@@ -140,15 +139,12 @@ title: Amy Spencer | Web Developer
           .then(initGoogleAnalytics)
           .catch(handleError);
       }
-
       // -------------------------------------------------
       // Helper Functions
       // --------------------------------------------------
-
       function handleError(error) {
         console.log("error", error);
       }
-
       function getEnvVar(response) {
         // If the request was successful
         if (response.ok) {
@@ -159,7 +155,6 @@ title: Amy Spencer | Web Developer
           return Promise.reject(response);
         }
       }
-
       // Set Up Google Analytics
       function initGoogleAnalytics(analyticsId) {
         if (analyticsId) {
@@ -170,7 +165,6 @@ title: Amy Spencer | Web Developer
           var script = document.createElement("script");
           script.src = analyticsUrl;
           ref.parentNode.insertBefore(script, ref);
-
           // Initialize Google Analytics
           window.dataLayer = window.dataLayer || [];
           function gtag() {
