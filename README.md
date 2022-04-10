@@ -2,7 +2,7 @@
 
 ## Background
 
-This version of the website was created in 2022.  This was my first time incorporating 11ty as a CRM and deploying on netifly.  So I am sure there are some less than perfect parts to my code.
+This version of the website was created in 2022. This was my first time incorporating 11ty as a CRM & Static Site Generator and deploying on netifly. So I am sure there are some less than perfect parts to my code.
 
 
 ## Eleventy
