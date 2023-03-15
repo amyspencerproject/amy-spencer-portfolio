@@ -382,6 +382,10 @@ a.hoverline:hover {
   top: 2px;
 }
 
+.youtube-icon {
+  font-size: 36px
+}
+
 small {
   display: none;
 }
