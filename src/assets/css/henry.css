@@ -1,0 +1,42 @@
+#nav-trigger {
+    color: #009688 !important;
+    font-size: 36px;
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+.btn-close {
+    font-size: 24px;
+}
+
+.offcanvas {
+    width: 75% !important;
+}
+
+.offcanvas-nav {
+    font-size: 32px;
+    padding: 0;
+}
+
+.offcanvas li {
+    font-size: 32px !important;
+}
+
+.offcanvas-nav a {
+    text-decoration: none;
+}
+
+.offcanvas i {
+    padding-right: 5px;
+}
+
+#name {
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.name-title {
+    line-height: 20px;
+    padding-left: 15%;
+}
