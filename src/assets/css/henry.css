@@ -41,6 +41,12 @@
     padding-left: 15%;
 }
 
+/* Bootstrap makes all sections have a padding top and bottom
+of 1rem so I just ignore it. */
+.section {
+    padding: 0;
+}
+
 #intro {
     background-image: url('https://spencerproject.com/assets/img/profile.jpg');
     background-position: left;
@@ -54,11 +60,11 @@
     padding-top: 25%;
 }
 
-#intro h2 {
+#intro h1 {
     font-weight: 300;
 }
 
-#intro h2 span {
+#intro h1 span {
     font-weight: 500;
 }
 
@@ -68,4 +74,10 @@
 
 .underline {
     border-bottom: 5px solid #009688;
+}
+
+#about .page-title {
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
 }
