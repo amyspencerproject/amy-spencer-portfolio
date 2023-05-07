@@ -39,8 +39,8 @@
 </head>
 
 <body>
-  <div class="l-navbar" id="nav-bar">
-    <nav class="hide-on-large position-fixed bg-light d-flex justify-content-start align-items-center ">
+  <div class="l-navbar">
+    <nav class="hide-on-large position-fixed bg-light d-flex justify-content-start align-items-center" id="nav-bar">
       <a aria-label="Toggle visibility of the mobile navbar" data-bs-toggle="offcanvas" href="#offcanvas" role="button"
         aria-controls="offcanvas" id="nav-trigger"><i class=" mdi-navigation-menu"></i></a>
       <div class="name-title d-flex justify-content-center align-items-center flex-column">
@@ -87,41 +87,45 @@
       </div>
     </section>
     <section id="about" class="section scrollspy">
-      <p class="page-title white-text teal p-4 mb-3">About</p>
+      <p class="page-title white-text teal p-4 mb-3 text-uppercase">About</p>
       <div class="container flow-text">
-        <blockquote class="my-4">
-          <h2 class="mt-2">
-            Project-driven front end developer with a passion for thoughtful
-            UI design and collaboration.
-          </h2>
-        </blockquote>
-        <p>
-          I've always sought out opportunities to learn new things and take on challenges. My life and professional
-          experience has taken many paths — from attending graduate school in Salt Lake City, to working as a synthetic
-          biology researcher in Italy, to developing safety testing methods for cannabis in Colorado, to being an
-          entrepreneur — I've never stopped engaging my curiosity and desire to contribute, collaborate, and
-          solve problems.
-        </p>
-        <p>
-          As a web developer, I enjoy working closely with clients to build platforms which serve their business
-          needs, share information, and celebrate their ideas. Being a web developer is a natural fit for utilizing
-          my obsessive attention to detail and my love for creating things. Forever an optimist I believe that when
-          we collaborate we can literally change the world. That's why I'm excited to make a big impact for you and
-          your company.
-        </p>
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <blockquote class="my-4">
+              <h2 class="mt-2">
+                Project-driven front end developer with a passion for thoughtful
+                UI design and collaboration.
+              </h2>
+            </blockquote>
+            <p>
+              I've always sought out opportunities to learn new things and take on challenges. My life and professional
+              experience has taken many paths — from attending graduate school in Salt Lake City, to working as a synthetic
+              biology researcher in Italy, to developing safety testing methods for cannabis in Colorado, to being an
+              entrepreneur — I've never stopped engaging my curiosity and desire to contribute, collaborate, and
+              solve problems.
+            </p>
+            <p>
+              As a web developer, I enjoy working closely with clients to build platforms which serve their business
+              needs, share information, and celebrate their ideas. Being a web developer is a natural fit for utilizing
+              my obsessive attention to detail and my love for creating things. Forever an optimist I believe that when
+              we collaborate we can literally change the world. That's why I'm excited to make a big impact for you and
+              your company.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
+      <h3 class="page-title white-text teal p-4 mb-3 text-uppercase">Projects</h3>
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <!--Catch of the Day -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
+          <div class="col-sm-12 m6 l4">
+            <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of Catch of the Day web app" src="./assets/img/catch.jpg" class="activator" />
               </div>
-              <div class="card-content">
+              <div class="p-3">
                 <span class="card-title activator teal-text hoverline">Catch of the Day<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
@@ -130,12 +134,12 @@
               </div>
               <div class="card-reveal">
                 <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
-                <ul>
+                <ol class="pt-2 ps-4">
                   <li>Web app built with <strong>React Javascript</strong></li>
                   <li>User authentication and data storage with <strong>Google Firebase</strong></li>
                   <li>Maintainable code written with <strong>JavaScript Modules</strong></li>
-                </ul>
-                <div class="card-action">
+                </ol>
+                <div class="card-action py-2 px-1">
                   <a aria-label="Visit Catch of the Day web app" href="https://stirring-lolly-355f8c.netlify.app/"
                     target="_blank" data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
@@ -150,13 +154,13 @@
             </div>
           </div>
           <!-- Super Sticky Notes -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
+          <div class="col-sm-12 m6 l4">
+            <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of Super Sticky Notes web app" src="./assets/img/stickynotes.jpg"
                   class="activator" />
               </div>
-              <div class="card-content">
+              <div class="pt-2 ps-4">
                 <span class="card-title activator teal-text hoverline">Super Sticky Notes<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
@@ -165,13 +169,13 @@
               </div>
               <div class="card-reveal">
                 <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
-                <ul>
+                <ol class="pt-2 ps-4">
                   <li>Web app built with <strong>React Javascript</strong></li>
                   <li>Used <strong>JSX</strong> markup to style app</li>
                   <li>Implemented <strong>ES6</strong></li>
                   <li>Used State and LocalStorage to make app <strong>user interactive</strong></li>
-                </ul>
-                <div class="card-action">
+                </ol>
+                <div class="card-action py-2 px-1">
                   <a aria-label="Visit Super Sticky Notes web app" href="https://y9ymk7.csb.app/" target="_blank"
                     data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
@@ -186,12 +190,12 @@
             </div>
           </div>
           <!-- Hotel Search-->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
+          <div class="col-sm-12 m6 l4">
+            <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of Hotel Search project" src="./assets/img/hotelsearch.jpg" class="activator" />
               </div>
-              <div class="card-content">
+              <div class="pt-2 ps-4">
                 <span class="card-title activator teal-text hoverline">Hotel Search<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
@@ -200,11 +204,11 @@
               </div>
               <div class="card-reveal">
                 <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
-                <ul>
+                <ol class="pt-2 ps-4">
                   <li>Web app built with <strong>React Javascript</strong></li>
                   <li>Used State and Props to filter search results</li>
-                </ul>
-                <div class="card-action">
+                </ol>
+                <div class="card-action py-2 px-1">
                   <a aria-label="Visit Hotel Search web app" href="https://h0div0.csb.app/" target="_blank"
                     data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
@@ -218,13 +222,13 @@
             </div>
           </div>
           <!-- Guess the Word-->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
+          <div class="col-sm-12 m6 l4">
+            <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of Guess the Word project" src="./assets/img/guess-the-word.jpg"
                   class="activator" />
               </div>
-              <div class="card-content">
+              <div class="pt-2 ps-4">
                 <span class="card-title activator teal-text hoverline">Guess the Word<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
@@ -233,12 +237,12 @@
               </div>
               <div class="card-reveal">
                 <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
-                <ul>
+                <ol class="pt-2 ps-4">
                   <li>Built with <strong>CSS & HTML</strong></li>
                   <li>Made interactive with <strong>JavaScript</strong></li>
                   <li>Pulled in word database with a <strong>REST API</strong></li>
-                </ul>
-                <div class="card-action">
+                </ol>
+                <div class="card-action py-2 px-1">
                   <a aria-label="Visit Guess the Word web app"
                     href="https://amyspencerproject.github.io/guess-the-word/" target="_blank" data-position="top"
                     data-tooltip="View Online"
@@ -254,13 +258,13 @@
             </div>
           </div>
           <!-- GitHub Repo Gallery-->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
+          <div class="col-sm-12 m6 l4">
+            <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of GitHub Repo Gallery web app" src="./assets/img/repo-gallery.jpg"
                   class="activator" />
               </div>
-              <div class="card-content">
+              <div class="pt-2 ps-4">
                 <span class="card-title activator teal-text hoverline">GitHub Repo Gallery<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
@@ -269,12 +273,12 @@
               </div>
               <div class="card-reveal">
                 <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
-                <ul>
+                <ol class="pt-2 ps-4">
                   <li>Built with <strong>CSS & HTML</strong></li>
                   <li>Made interactive and searchable with <strong>JavaScript</strong></li>
                   <li>Used GitHub's <strong>API</strong> to display user profile and repos</li>
-                </ul>
-                <div class="card-action">
+                </ol>
+                <div class="card-action py-2 px-1">
                   <a aria-label="Visit GitHub Repo Gallery web app"
                     href="https://amyspencerproject.github.io/github-repo-gallery/" target="_blank" data-position="top"
                     data-tooltip="View Online"
@@ -290,13 +294,13 @@
             </div>
           </div>
           <!-- Accelerate Marketing -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
+          <div class="col-sm-12 m6 l4">
+            <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img alt="Screenshot of Wordpress site for Accelerate Marketing" src="./assets/img/accelerate.jpg"
                   class="activator" />
               </div>
-              <div class="card-content">
+              <div class="pt-2 ps-4">
                 <span class="card-title activator teal-text hoverline">Wordpress Site<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
@@ -305,13 +309,12 @@
               </div>
               <div class="card-reveal">
                 <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span>
-                <ul>
+                <ol class="pt-2 ps-4">
                   <li>Customized <strong>Themes</strong>, <strong>Menus</strong> &#38 <strong>Forms</strong></li>
                   <li>Used <strong>PHP</strong> to create customized queries</li>
                   <li>Set up <strong>developer/staging</strong> environments to share website progress with client</li>
-                  <li>Gained experience experience editing and updating existing <strong>WordPress</strong> site</li>
-                </ul>
-                <div class="card-action">
+                </ol>
+                <div class="card-action py-2 px-1">
                   <a aria-label="Visit Acclerate Marketing Wordpress site" href="https://nsd.oel.mybluehost.me/"
                     target="_blank" data-position="top" data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
@@ -327,126 +330,122 @@
           </div>
     </section>
     <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
+      <h3 class="page-title white-text teal p-4 mb-3 text-uppercase">Skills</h3>
       <div class="container">
         <div class="card">
-          <div class="card-content">
+          <div class="card-content p-3">
             <h4 class="brown-text light">Frontend</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="html5 icon" src="./assets/img/html5.png" class="responsive-img" />HTML5
+            <div class="d-flex flex-wrap text-center">
+              <div class="col-4 m2">
+                <img alt="html5 icon" src="./assets/img/html5.png" class="img-fluid" />HTML5
               </div>
-              <div class="col s4 m2">
-                <img alt="CSS3 icon" src="./assets/img/css3.png" class="responsive-img" />CSS3
+              <div class="col-4 m2">
+                <img alt="CSS3 icon" src="./assets/img/css3.png" class="img-fluid" />CSS3
               </div>
-              <div class="col s4 m2">
-                <img alt="JavaScript icon" src="./assets/img/javascript.png" class="responsive-img" />Javascript
+              <div class="col-4 m2">
+                <img alt="JavaScript icon" src="./assets/img/javascript.png" class="img-fluid" />Javascript
               </div>
-              <div class="col s4 m2">
-                <img alt="React JS icon" src="./assets/img/react.png" class="responsive-img" />React
+              <div class="col-4 m2">
+                <img alt="React JS icon" src="./assets/img/react.png" class="img-fluid" />React
               </div>
-              <div class="col s4 m2">
-                <img alt="GitHub icon" src="./assets/img/github.png" class="responsive-img" />Github
+              <div class="col-4 m2">
+                <img alt="GitHub icon" src="./assets/img/github.png" class="img-fluid" />Github
               </div>
             </div>
           </div>
         </div>
         <div class="card">
-          <div class="card-content">
+          <div class="card-content p-3">
             <h4 class="brown-text light">Integration, Marketing, and Business Software</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
+            <div class="d-flex flex-wrap text-center">
+              <div class="col-4 m2 p-1">
                 <img alt="Zappier icon" src="./assets/img/zappier.png" class="responsive-img" />Zappier
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Stripe icon" src="./assets/img/stripe-2.png" class="responsive-img" />Stripe
               </div>
-
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Go High Level icon" src="./assets/img/ghl.png" class="responsive-img" />GoHighLevel
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Zendesk icon" src="./assets/img/zendesk.png" class="responsive-img" />Zendesk
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Notion icon" src="./assets/img/notion.png" class="responsive-img" />Notion
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Mailgun icon" src="./assets/img/mailgun.png" class="responsive-img" />Mailgun
               </div>
-            </div>
-            <div class="row text-center">
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Airtable icon" src="./assets/img/airtable.png" class="responsive-img" />Airtable
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Mailchimp icon" src="./assets/img/mailchimp.png" class="responsive-img" />Mailchimp
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Stripo icon" src="./assets/img/stripo.png" class="responsive-img" />Stripo
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Google icon" src="./assets/img/google.png" class="responsive-img" />Google Workspace
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Slack icon" src="./assets/img/slack.png" class="responsive-img" />Slack
               </div>
-            </div>
+          </div>
           </div>
         </div>
         <div class="card">
-          <div class="card-content">
+          <div class="card-content p-3">
             <h4 class="brown-text light">Content Management Systems (CMS)</h4>
             <div class="row text-center">
-
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="WordPress icon" src="./assets/img/wordpress.png" class="responsive-img" />Wordpress
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Eleventy icon" src="./assets/img/eleventy.png" class="responsive-img" />Eleventy
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Weebly icon" src="./assets/img/weebly.png" class="responsive-img" />Weebly
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Wix icon" src="./assets/img/wix.png" class="responsive-img" />Wix
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Squarespace icon" src="./assets/img/squarespace.png" class="responsive-img" />Squarespace
               </div>
             </div>
           </div>
         </div>
         <div class="card">
-          <div class="card-content">
+          <div class="card-content p-3">
             <h4 class="brown-text light">Backend & Build Tools</h4>
             <div class="row text-center">
-              <div class="col s4 m2">
+              <div class="col-3 m2 p-1">
                 <img alt="NPM icon" src="./assets/img/npm.png" class="responsive-img" />NPM
               </div>
-              <div class="col s4 m2">
+              <div class="col-3 m2 p-1">
                 <img alt="Node JS icon" src="./assets/img/nodejs.png" class="responsive-img" />Node
               </div>
-              <div class="col s4 m2">
+              <div class="col-3 m2 p-1">
                 <img alt="PHP icon" src="./assets/img/php.png" class="responsive-img" />PHP
               </div>
-              <div class="col s4 m2">
+              <div class="col-3 m2 p-1">
                 <img alt="Ruby icon" src="./assets/img/ruby.png" class="responsive-img" />Ruby
               </div>
             </div>
           </div>
         </div>
         <div class="card">
-          <div class="card-content">
+          <div class="card-content p-3">
             <h4 class="brown-text light">Graphic Design Software</h4>
             <div class="row text-center">
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Figma icon" src="./assets/img/figma.png" class="responsive-img" />Figma
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Photoshop icon" src="./assets/img/photoshop.png" class="responsive-img" />Photoshop
               </div>
-              <div class="col s4 m2">
+              <div class="col-4 m2 p-1">
                 <img alt="Canva icon" src="./assets/img/canva.png" class="responsive-img" />Canva
               </div>
             </div>
@@ -456,39 +455,24 @@
     </section>
 
     <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
+      <h3 class="page-title white-text teal p-4 mb-3 text-uppercase">Contact</h3>
+      <div class="container d-flex justify-content-evenly">
           <a aria-label="Email Amy" href="mailto:amy.spencerproject@gmail.com" data-position="top"
             data-tooltip="Email Amy" class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Amy" href="mailto:amy.spencerproject@gmail.com"
-              target="_blank" class="hoverline">amy.spencerproject@gmail.com</a></a>
-        </p>
-        <p>
+              class="fa fa-envelope"></i></a>
           <a aria-label="View Amy on GitHub" href="https://github.com/amyspencerproject" target="_blank"
             data-position="top" data-tooltip="View Amy on GitHub"
-            class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Amy on Github" href="https://github.com/amyspencerproject" target="_blank"
-              class="hoverline">github.com/amyspencerproject</a></a>
-        </p>
-        <p>
+            class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-github"></i></a>
           <a aria-label="View Amy on LinkedIn" href="https://www.linkedin.com/in/amyspencercodes/" target="_blank"
             data-position="top" data-tooltip="View Amy on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i><a
-              aria-label="Amy on LinkedIn" href="https://www.linkedin.com/in/amyspencercodes/" target="_blank"
-              class="hoverline">linkedin.com/in/amyspencercodes</a></a>
-        </p>
-        <p>
+            class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-linkedin"></i></a>
           <a aria-label="View Amy's Youtube channel" href="https://www.youtube.com/@amy.spencerproject/featured"
             target="_blank" data-position="top" data-tooltip="View Amy's Youtube channel"
             class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i class="fa fa-youtube"
-              style="font-size:36px"></i><a aria-label="Amy's Youtube channel"
-              href="https://www.youtube.com/@amy.spencerproject/featured" target="_blank"
-              class="hoverline">youtube.com/@amy.spencerproject</a></a>
-        </p>
+              style="font-size:36px"></i></a>
       </div>
     </section>
-    <footer class="section scrollspy">Copyright 2023 | Amy Spencer</footer>
+    <footer class="section scrollspy d-flex justify-content-center align-items-center">Copyright 2023 | Amy Spencer</footer>
   </main>
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

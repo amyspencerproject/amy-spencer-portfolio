@@ -1,3 +1,13 @@
+main {
+    background-image: url('../img/texture.png');
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: screen;
+}
+
+#nav-bar {
+    z-index: 99999999999;
+}
+
 #nav-trigger {
     color: #009688 !important;
     font-size: 36px;
@@ -76,8 +86,25 @@ of 1rem so I just ignore it. */
     border-bottom: 5px solid #009688;
 }
 
-#about .page-title {
+.page-title {
     font-size: 40px;
     font-weight: 200;
-    text-transform: uppercase;
+}
+
+blockquote {
+    border-color: #795548;
+}
+
+blockquote h2 {
+    color: #795548;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.card p {
+    margin-top: 0.5rem;
+}
+
+#skills img {
+    height: 85.59px;
 }
