@@ -11,12 +11,11 @@ title: Amy Spencer | Web Developer
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <link
     rel="icon" type="image/png" sizes="32x32" href="../assets/img/columbine.png"> <!-- Materialize - Compiled and minified CSS-->
-    <link
-    rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"/> <!-- Font Awesome Icon - CSS-->
-    <link rel="stylesheet" <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">/>
-    <title>{{ title }}</title>
-    <!-- Open Graph-->
-    <meta property="og:locale" content="en_US"/>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"/><!-- Font Awesome Icon - CSS-->
+    {# <link rel="stylesheet" <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">/> #}<title>
+    {{ title }}
+    </title>
+    <!-- Open Graph--> <meta property="og:locale" content="en_US"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="{{ title }}"/>
     <meta property="og:description" content="{{ description }}"/>
@@ -35,6 +34,8 @@ title: Amy Spencer | Web Developer
   </head>
   <body>
     {{ content | safe }}
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/0b210675f6.js" crossorigin="anonymous"></script>
     <!-- jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Materialize - Compiled and minified JavaScript-->
